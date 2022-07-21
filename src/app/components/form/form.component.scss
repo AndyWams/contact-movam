@@ -1,0 +1,10 @@
+.form-wrap {
+  padding: 2em;
+  background: #fff;
+  border-radius: 10px;
+  width: 500px;
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+    width: auto;
+    margin-top: 2em;
+  }
+}

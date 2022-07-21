@@ -1,0 +1,16 @@
+<section class="landing">
+  <div class="container">
+    <div class="panel align-items-center d-flex flex-column">
+      <h3>Thank you for your feedback!</h3>
+      <p>Your details have been submitted succesfully</p>
+      <ng-container *ngIf="data">
+        <span class="f12">Name: {{ data.name }}</span>
+        <span class="f12">Email: {{ data.mail }}</span>
+        <span class="f12">Message{{ data.message }}</span>
+      </ng-container>
+      <div class="mt-4">
+        <button mat-stroked-button routerLink="/">Back to Home</button>
+      </div>
+    </div>
+  </div>
+</section>

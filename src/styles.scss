@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "../src/scss/_buttons.scss";
+@import "../src/scss/_input.scss";
+@import "~ngx-toastr/toastr";
+
+body,
+html {
+  margin: 0;
+  font-family: "Nunito Sans", sans-serif;
+}
+mat-spinner {
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 10px;
+  svg {
+    width: 20px !important;
+    height: 20px !important;
+  }
+}
+
+.mat-progress-spinner circle,
+.mat-spinner circle {
+  stroke: #fff !important;
+}
